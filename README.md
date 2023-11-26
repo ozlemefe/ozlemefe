@@ -5,6 +5,11 @@ Our data set is divided into two. As train and test.
 Our data set includes date, store ID, item ID, sales data.
 The model we want to use is LightGBM, XGBOOST, RandomForest. We will try to make the most accurate prediction by comparing these models.
 <!---
+
+We started our operations by reading the data we had in our project. 
+We tried to understand our data. Here we applied the EDA method. We created Item ID - Sum of Sales charts based on the data we had. 
+We decided to apply the one hot encodig method in the future.
+
 ozlemefe/ozlemefe is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
 
