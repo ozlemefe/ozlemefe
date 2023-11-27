@@ -1,0 +1,52 @@
+				PROGRESS REPORT
+Project Topic: Store Item Demand Forecasting
+Project Members: Efe İsmet Şeref Kurnaz
+	                      Özlem Deniz Yıldız
+
+
+			Store Item Demand Forecasting
+
+What is demand forecasting ?
+   Demand forecasting is the process of predicting future demand for a product or service. It is an integral part of a retailer’s strategic planning and execution. Forecasting helps retailers plan their inventory and supply chain, which are the backbone of their operations.
+
+   It allows you to better manage your inventory levels and consistently meet demand while only storing the inventory you need at a given period. For instance, when a product comes in stock, it's available for purchase by customers who want it—and not sitting on shelves gathering dust.
+
+
+
+
+
+Demand Forecasting Models
+
+Machine Learning : We prefer the machine learning model. Feeding historical data into a machine learning platform can reveal patterns and make predicting future demand much easier.
+
+
+
+What do we aim fort this project ?
+   Our aim is to predict sales in the next 3 months based on data from the past 5 years for 10 different stores and 50 different product types. 
+Variables:
+Date -  Date of Sales Date
+Store – Store ID
+Item – Item ID
+Sales – Number of Products Sold at a Specific Store on a Specific Date
+
+
+
+
+
+
+
+
+Analysis Steps
+
+1) Data Discovery and Cleaning: We checked for missing data, handled outliers, and performed data cleaning.
+
+2) Feature Engineering: Various date features will be derived from the date column and we have created features that are necessary to improve model performance. 
+
+3) Model Development: It will be modeled separately for each store and product type. Among these models, for example, ARIMA, LSTM, or XGBoost models can be used.
+
+XGBoost (eXtreme Gradient Boosting) is a machine learning algorithm that is particularly successful on tabular data and has a wide range of applications and so we decided to use this algorithm.
+LightGBM uses a histogram-based method in which data is bucketed into bins using a histogram of the distribution. The bins, instead of each data point, are used to iterate, calculate the gain, and split the data. This method can be optimized for a sparse dataset as well. We are also researching to use this algorithm.
+
+
+
+
